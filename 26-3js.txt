@@ -3,8 +3,15 @@
 // let num = +prompt("Ededi daxil edin: ");
 // let say=0
 // if (num===1){
-    //     console.log("ne sade ne murekkeb");
-// }else{
+//     console.log("ne sade ne murekkeb");
+// }
+// else if(num===0){
+//     console.log("eded 0-dir");
+// }
+// else if(num<0){
+//     console.log("menfiler ne sade ne murekkebdir");
+// }
+//     else{
 //     for(let i=2; i<= Math.sqrt(num);i++){
 //         if(num%i===0){
 //             say+=1;
@@ -17,6 +24,7 @@
 //         console.log("sade");
 //     }
 // }
+
     
 
 
