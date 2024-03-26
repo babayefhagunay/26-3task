@@ -1,0 +1,93 @@
+
+// 1
+// let num = +prompt("Ededi daxil edin: ");
+// let say=0
+// if (num===1){
+    //     console.log("ne sade ne murekkeb");
+// }else{
+//     for(let i=2; i<= Math.sqrt(num);i++){
+//         if(num%i===0){
+//             say+=1;
+//             break;
+//         }
+//     }
+//     if(say>0){
+//         console.log("murekkeb");
+//     }else{
+//         console.log("sade");
+//     }
+// }
+    
+
+
+// 2
+// let num = +prompt("ededi daxil edin");
+// let cem = 0
+// for (let i = 1; i < num; i++){
+//     if(num % i === 0){
+//         cem +=i
+//     }
+// }
+// if(cem === num ){
+//     console.log("eded mukemmeldir");
+// }
+// else{
+//     console.log("eded mukemmel deyil");
+// }
+
+
+
+// 3
+// let num1 = +prompt("birinci ededi daxil edin: ");
+// let num2 = +prompt("ikinci ededi daxil edin: ");
+// let cem = 0;
+// for (let i = num1 + 1; i < num2; i++) {
+//     for (let j = 1; j < i; j++) { 
+//         if (i % j === 0) {
+//             cem += j;
+//         }
+//     }
+//     if (cem === i) {
+//         console.log(i);
+//     }
+//     cem = 0; 
+// }
+
+
+
+
+// 4-------------------------------------------------------------------------------------------------------------------------------------------
+// let num = +prompt("Ededi daxil edin: ");
+// let asal = true;
+// if (num = 1) {
+//     asal = false; // 1 ve daha küçük sayılar asal değildir.
+// } else {
+//     for (let i = 2; i <= Math.sqrt(num); i++) {
+//         if (num % i === 0) {
+//             asal = false; // numara i sayısına bölünüyorsa, asal değildir.
+//             break;
+//         }
+//     }
+// }
+// if (asal && num > 1) {
+//     console.log(num + " sayısı sade bir sayıdır.");
+// } else {
+//     console.log(num + " sayısı mürekkeb bir sayıdır.");
+// }
+
+
+
+// 5
+// let num1 = +prompt("Birinci ededi daxil edin: ");
+// let num2 = +prompt("Ikinci ededi daxil edin: ");
+// for (let i = num1 + 1; i < num2; i++) {
+//     let lastNum = i % 10; 
+//     if (lastNum === 7) {
+//         console.log(i); 
+//     }
+// }
+
+
+
+
+
