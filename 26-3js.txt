@@ -1,4 +1,3 @@
-
 // 1
 // let num = +prompt("Ededi daxil edin: ");
 // let say=0
@@ -12,20 +11,19 @@
 //     console.log("menfiler ne sade ne murekkebdir");
 // }
 //     else{
-//     for(let i=2; i<= Math.sqrt(num);i++){
+//     for(let i=2; i<= num;i++){
 //         if(num%i===0){
 //             say+=1;
-//             break;
+//             // break;
 //         }
 //     }
-//     if(say>0){
+//     if(say>2){
 //         console.log("murekkeb");
 //     }else{
 //         console.log("sade");
 //     }
 // }
 
-    
 
 
 // 2
@@ -42,6 +40,7 @@
 // else{
 //     console.log("eded mukemmel deyil");
 // }
+
 
 
 
@@ -63,25 +62,22 @@
 
 
 
-
-// 4-------------------------------------------------------------------------------------------------------------------------------------------
-// let num = +prompt("Ededi daxil edin: ");
-// let asal = true;
-// if (num = 1) {
-//     asal = false; // 1 ve daha küçük sayılar asal değildir.
-// } else {
-//     for (let i = 2; i <= Math.sqrt(num); i++) {
-//         if (num % i === 0) {
-//             asal = false; // numara i sayısına bölünüyorsa, asal değildir.
-//             break;
-//         }
+// 4
+// let num1 = +prompt("birinci ededi daxil edin: ");
+// let num2 = +prompt("ikinci ededi daxil edin: ");
+// let say = 0;
+// for ( let i=num1; i<num2; i++){
+//     say = 0;
+//     for(let j=1; j<=i; j++){
+//         if(i%j==0){
+//             say +=1;
+//         }     
 //     }
+//     if(say===2){
+//                 console.log(`${i}`);
+//             }
 // }
-// if (asal && num > 1) {
-//     console.log(num + " sayısı sade bir sayıdır.");
-// } else {
-//     console.log(num + " sayısı mürekkeb bir sayıdır.");
-// }
+
 
 
 
